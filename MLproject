@@ -1,0 +1,8 @@
+name: bash-example-docker
+
+docker_env: 
+  image: bash-example
+
+entry_points:
+  main:
+    command: "bash main.sh"
